@@ -1,8 +1,5 @@
-def wash_hands(n, months):
-    all_sec = n * months * 30 * 21
-    min = all_sec // 60
-    sec = all_sec - (min * 60)
-    return min, sec
-n, months = map(int, input().split())
-min, sec = wash_hands(n, months)
-print(f'{min} минути и {sec} секунди')
+def calculate(build_price, sell_price, volume):
+    return (sell_price - build_price) * volume
+
+build_price, sell_price, volume = map(float, input().split())
+print(f'{calculate(build_price, sell_price, volume):.0f}')
