@@ -1,0 +1,20 @@
+{
+    "Fairy": ["Poison", "Steel"],
+    "Steel": ["Fire", "Fighting", "Ground"],
+    "Dark": ["Fighting", "Bug", "Fairy"],
+    "Dragon": ["Ice", "Dragon", "Fairy"],
+    "Ghost": ["Ghost", "Dark"],
+    "Rock": ["Water", "Grass", "Fighting", "Ground", "Steel"],
+    "Bug": ["Fire", "Flying", "Rock"],
+    "Psychic": ["Bug", "Ghost", "Dark"],
+    "Flying": ["Electric", "Ice", "Rock"],
+    "Ground": ["Water", "Grass", "Ice"],
+    "Poison": ["Ground", "Psychic"],
+    "Fighting": ["Flying", "Psychic", "Fairy"],
+    "Ice": ["Fire", "Fighting", "Rock", "Steel"],
+    "Grass": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+    "Electric": ["Ground"],
+    "Water": ["Electric", "Grass"],
+    "Fire": ["Water", "Ground", "Rock"],
+    "Normal": ["Fighting"]
+}
